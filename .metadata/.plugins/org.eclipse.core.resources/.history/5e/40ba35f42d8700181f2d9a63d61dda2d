@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Factorial {
+
+	public static void main(String[] args) {
+		int factNo;
+		int total;
+		Scanner inputScanner = new Scanner(System.in);
+		System.out.print("Enter a No. : ");
+		factNo = inputScanner.nextInt();
+		while(factNo != 0) {
+			
+				total = recursion(total , factNo);
+		}
+		
+	}
+	
+	public static int recursion(int total, int factNo) {
+		return total * factNo;
+	}
+}

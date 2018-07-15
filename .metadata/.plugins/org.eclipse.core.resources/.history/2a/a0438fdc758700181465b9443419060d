@@ -1,0 +1,21 @@
+package string;
+
+import java.util.Scanner;
+
+public class StringOnlyDigits {
+
+	public static void main(String[] args) {
+		String inputString;
+		Scanner inputScanner = new Scanner(System.in);
+		System.out.print("Enter a String : ");
+		inputString = inputScanner.next();
+		int length = inputString.length();
+		char[] inputCharArray = new char[length];
+		int index = 0;
+		while(index < length) {
+			char c = inputCharArray[index];
+			if( c > 48 && c < 57)
+		}
+	}
+	
+}

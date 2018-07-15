@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class PrimeNoRange {
+
+	public static void main(String[] args) {
+		int start , end;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter First No. : ");
+		start = sc.nextInt();
+		System.out.print("Enter First No. : ");
+		end = sc.nextInt();
+		System.out.println("Prime No.'s within range :");
+		for(i =start ; i <=end ; i++) {
+			
+		}
+	}
+	
+}

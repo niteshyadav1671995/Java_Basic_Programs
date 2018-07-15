@@ -1,0 +1,22 @@
+package string;
+
+import java.util.Scanner;
+
+public class StringDuplicates2 {
+
+	public static void main(String[] args) {
+		String inputString;
+		Scanner sc= new Scanner(System.in);
+		System.out.print("Enter your String : ");
+		inputString= sc.next();
+		int length = inputString.length();
+		for(int i = 0 ; i < length; i++) {
+			char c = inputString.charAt(i);
+			int index = inputString.indexOf(c , i+1);
+			if(index > i) {
+				System.out.println(c);
+			}
+		}
+	}
+	
+}

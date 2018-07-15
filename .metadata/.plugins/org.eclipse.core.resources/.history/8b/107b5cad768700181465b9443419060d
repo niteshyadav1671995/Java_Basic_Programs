@@ -1,0 +1,26 @@
+package string;
+
+import java.util.Scanner;
+
+public class StringOnlyDigits {
+
+	public static void main(String[] args) {
+		String inputString;
+		Scanner inputScanner = new Scanner(System.in);
+		System.out.print("Enter a String : ");
+		inputString = inputScanner.next();
+		char[] inputCharArray = inputString.toCharArray();
+		int length = inputCharArray.length-1;
+		int index = 0;
+		while(index <= length) {
+			char c = inputCharArray[index];
+			if( c < 48 && c > 57) {
+				System.out.println("All Charcters are not digits!");
+				break;
+			}
+			index++;
+		}
+		System.out.println("String contains only digits$$");
+	}
+	
+}

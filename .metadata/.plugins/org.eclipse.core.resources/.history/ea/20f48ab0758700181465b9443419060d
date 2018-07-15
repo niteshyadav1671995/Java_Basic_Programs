@@ -1,0 +1,15 @@
+package string;
+
+import java.util.Scanner;
+
+public class StringOnlyDigits {
+
+	public static void main(String[] args) {
+		String inputString ;
+		Scanner inputScanner = new Scanner(System.in);
+		int length = inputString.length();
+		char inputCharArray = new char[length];
+		
+	}
+	
+}
